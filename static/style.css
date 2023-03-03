@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Oswald:wght@500&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar {
+    background-color: black;
+    padding: 13px 18px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li {
+    list-style: none;
+}
+#navbar li a {
+    text-decoration: none;
+    padding: 7px 40px;
+    color: white;
+}
+#navbar li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#introsection {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    color: blue;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    font-size: 35px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    background-color: orange;
+    padding-bottom: 40px;
+}
+#missionsection {
+    height: 326px;
+    background-color: white;
+    width: 67%;
+    margin: auto;
+}
+
+#missionsection h3 {
+    text-align: center;
+    padding: 12px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 20px;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+.card h4 {
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 125px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+.card-img img {
+    height: inherit;
+}
+.card-content {
+    padding: 0px 10px;
+}
+.card-content p {
+    font-size: 20px;
+}
+#logo img {
+    height: 42px;
+    filter: invert(1);
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#introsection div.small {
+    font-size: 25px;
+}
+
+#introsection div{
+    font-size: 40px;
+}
+#sponsorsection {
+    height: 250px;
+    background-color: grey;
+}
+#sponsorsection h3 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+}
+#sponsor {
+    height: 110px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 35px;
+}
+.spImg {
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+#footer {
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    display: flex;
+    padding-top: 12px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
